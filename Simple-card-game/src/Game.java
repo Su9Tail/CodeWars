@@ -25,7 +25,7 @@ public class Game {
     public static void main(String[] args) {
         Game game = new Game();
         System.out.println(game.winner(new String[]{"A", "7", "8"}, new String[]{"K", "5", "9"}));
-        System.out.println(game.winner(new String[]{"2", "7", "8"}, new String[]{"K", "5", "9"}));
+        System.out.println(game.winner(new String[]{"2", "7", "8"}, new String[]{"K", "6", "9"}));
         System.out.println(game.winner(new String[]{"T"}, new String[]{"T"}));
     }
 }
